@@ -1,0 +1,84 @@
+.activeLink{
+    background-color: #1266f1;
+}
+.sidenav-link:hover{
+
+    background-color: #1266f1;
+}
+.sidenav-link:active{
+    background-color: #1266f1;
+}
+
+.round-15 {
+    border-radius:15px;
+}
+
+.nav-link-round-15 {
+    border-radius: 0 15px 15px 0 !important;
+    margin: 0;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.card-height-550 {
+    height: 550px;
+}
+.v-center {
+    margin-top: calc(25% - 300px);
+}
+.mt-100 {
+    margin-top: 100px;
+}
+
+.login-body {
+    min-height: 100vh;
+}
+.bg-gradient-custom-1 {
+    background: linear-gradient(to top, rgba(71, 0, 148, 1), rgba(18, 102, 241, 1))
+}
+
+.bg-gradient-custom-2 {
+    background: linear-gradient(to top, rgba(255, 0, 0, 1), rgba(255, 71, 71, 1))
+}
+
+.bg-gradient-custom-3 {
+    background: linear-gradient(to bottom, rgba(79, 172, 254, 1), rgba(0, 242, 254, 1))
+}
+.card-gradient-4 {
+    background: linear-gradient(to right, rgba(255, 138, 173, 1), rgba(255, 228, 77, 1))
+}
+
+.card-gradient-1 {
+    background: linear-gradient(to left, rgba(79, 172, 254, 1), rgba(0, 242, 254, 1))
+}
+
+.card-gradient-2 {
+    background: linear-gradient(to left, rgba(61, 255, 132, 1), rgba(0, 170, 255, 1))
+}
+
+.card-gradient-3 {
+    background: linear-gradient(to right, rgba(138, 88, 254, 1), rgba(255, 87, 207, 1))
+}
+
+.card-gradient-4 {
+     background: linear-gradient(to right, rgba(67, 233, 123, 0.5), rgba(56, 249, 215, 1))
+}
+
+.card-gradient-5 {
+    background: linear-gradient(to right, rgba(240, 147, 251, 0.5), rgba(245, 87, 108, 1))
+}
+.danger-color {
+    background: #F32013;
+}
+
+.danger-color:hover{
+    background: #CA0B00;
+}
+
+.video-description {
+    text-align: justify;
+    text-justify: inter-character;
+    white-space: pre-wrap;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+
+  <script src="https://kit.fontawesome.com/0b0a6a0f7b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="template/css/mdb.min.css"/>
+  <link rel="stylesheet" href="template/css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-light bg-white shadow-0 fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="template/images/logo.png" alt="" width="48" height="48" class="d-inline-block align-text-top">
+      WeTube
+    </a>
+
+    <form class="d-inline-flex col-6">
+      <input class="form-control round-15 me-2 shadow-3" type="search" placeholder="Search..."
+             aria-label="Search">
+      <button class="btn round-15 btn-light" type="submit"><i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+    </form>
+    <form action="Login.html">
+      <button type="submit" class="btn btn-primary round-15 me-3">Sign In</button>
+    </form>
+  </div>
+
+</nav>
+<div class="d-flex col-10 offset-2 mt-100">
+<video width="900px" height="506px" controlsList="nodownload" controls>
+  <source src="template/videos/Sample-Video.mp4" type="video/mp4">
+</video>
+</div>
+<br>
+<div class="col-10 offset-2">
+  <h5>This is a long sample video title for testing...</h5>
+  <p>10 views | uploaded 20/04/2021</p>
+  <button class="btn btn-success round-15 me-3" type="button" id="like" data-bs-toggle="button"><i class="far fa-thumbs-up pe-1"></i>Like</button>
+  <button class="btn btn-warning round-15 me-3" type="button" id="unlike" data-bs-toggle="button"><i class="far fa-thumbs-down pe-1"></i>Unlike</button>
+  <button class="btn btn-danger round-15 me-3" type="button" id="report"><i class="fas fa-flag pe-1"></i>Report</button>
+  <hr>
+  <h6>Amarabandu gaming</h6> <button class="btn btn-outline-danger round-15 me-3" type="button" id="subscribe"><i class="fas fa-plus-circle pe-1"></i>Subscribe</button>
+</div>
+<hr class="offset-2">
+<form class="offset-2 col-7">
+  <textarea class="form-control" placeholder="enter your comment here..."></textarea>
+</form>
+<hr class="offset-2">
+<script src="template/js/mdb.min.js"></script>
+</body>
+</html>
